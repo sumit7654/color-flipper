@@ -13,7 +13,6 @@ for(let i=0;i<6;i++){
 
     randomcolor=randomcolor+color[Math.floor(Math.random()*color.length)]
 }
-colordata.innerHTML=randomcolor;
-console.log(randomcolor)
+colordata.innerHTML=randomcolor;
 body.style.backgroundColor=randomcolor;
 })
